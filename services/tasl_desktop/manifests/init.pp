@@ -7,7 +7,6 @@ class tasl_desktop {
   include 'apt'
   include 'ntp'
   include 'rdesktop'
-  include 'libreoffice::calc'
-  include 'libreoffice::writer'
+  include 'libreoffice::suite'
 
 }

@@ -1,3 +1,3 @@
 node default {
-  include "s_desktop"
+  include "tasl_desktop"
 }

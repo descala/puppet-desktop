@@ -6,5 +6,6 @@ class tasl_desktop {
 
   include 'apt'
   include 'ntp'
+  include 'rdesktop'
 
 }

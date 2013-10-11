@@ -4,6 +4,7 @@ class tasl_desktop {
     server => '192.168.0.2:3142',
   }
 
-  include "ntp"
+  include 'apt'
+  include 'ntp'
 
 }

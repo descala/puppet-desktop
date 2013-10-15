@@ -7,5 +7,6 @@ class tasl_desktop::common {
   class { 'libreoffice':
     source => 'edge',
   }
+  include 'libreoffice::suite'
 
 }

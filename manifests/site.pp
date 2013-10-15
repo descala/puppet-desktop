@@ -1,7 +1,3 @@
-node default {
-  include 'tasl_desktop'
-}
-
-node 'gnome.ingent.local' {
-  include 'tasl_desktop::devel'
+node 'pc-max.anoiapenedes.local' {
+  include 'ap_desktop::devel'
 }

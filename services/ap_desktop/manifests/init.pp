@@ -4,6 +4,6 @@ class ap_desktop {
     server => '192.168.1.101:3142',
   }
 
-  include tasl_desktop::common
+  include ap_desktop::common
 
 }

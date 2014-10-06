@@ -1,3 +1,3 @@
-node 'pc-max.anoiapenedes.local' {
-  include 'ap_desktop::devel'
+node 'pc-4.tasl.local' {
+  include 'tasl_desktop::devel'
 }

@@ -11,7 +11,7 @@ class tasl_desktop::common {
   include 'libreoffice::suite'
 
   package {
-    'vlc':
+    ['vlc','keepass2','audacity','handbrake']:
       ensure => installed;
   }
 

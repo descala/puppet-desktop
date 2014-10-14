@@ -10,4 +10,9 @@ class tasl_desktop::common {
   }
   include 'libreoffice::suite'
 
+  package {
+    'vlc':
+      ensure => installed;
+  }
+
 }

@@ -8,7 +8,7 @@ class tasl_desktop::common {
   #class { 'libreoffice':
   #  source => 'backports',
   #}
-  include 'libreoffice::suite'
+  #include 'libreoffice::suite'
 
   package {
     ['vlc','keepass2','audacity']:

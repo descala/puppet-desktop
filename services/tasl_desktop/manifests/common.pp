@@ -6,7 +6,7 @@ class tasl_desktop::common {
   include 'pdf'
 
   class { 'libreoffice':
-    source => 'edge',
+    source => 'backports',
   }
   include 'libreoffice::suite'
 

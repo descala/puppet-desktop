@@ -5,9 +5,9 @@ class tasl_desktop::common {
   include 'rdesktop'
   include 'pdf'
 
-  class { 'libreoffice':
-    source => 'backports',
-  }
+  #class { 'libreoffice':
+  #  source => 'backports',
+  #}
   include 'libreoffice::suite'
 
   package {

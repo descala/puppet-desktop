@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gvfs
+GenericName=Acces al servidor
+Comment=Munta les carpetes del servidor
+Exec=gvfs-mount smb://server/dades
+Terminal=false
+Type=Application
+Categories=;
+StartupNotify=false

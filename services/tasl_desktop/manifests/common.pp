@@ -19,7 +19,7 @@ class tasl_desktop::common {
     '/etc/xdg/autostart/gvfs.desktop':
       owner  => root,
       group  => root,
-      mode   => '0755',
+      mode   => '0644',
       source => 'puppet:///modules/tasl_desktop/gvfs.desktop';
   }
 

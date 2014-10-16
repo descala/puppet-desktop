@@ -21,6 +21,11 @@ class tasl_desktop::common {
       group  => root,
       mode   => '0644',
       source => 'puppet:///modules/tasl_desktop/gvfs.desktop';
+    '/usr/local/mount_gvfs.sh':
+      owner  => root,
+      group  => root,
+      mode   => '0755',
+      source => 'puppet:///modules/tasl_desktop/mount_gvfs.sh';
   }
 
 }

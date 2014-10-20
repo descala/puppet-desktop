@@ -11,7 +11,7 @@ class tasl_desktop::common {
   #include 'libreoffice::suite'
 
   package {
-    ['vlc', 'keepass2', 'audacity', 'gvfs-fuse', 'scribus']:
+    ['vlc', 'keepass2', 'audacity', 'gvfs-fuse', 'scribus', 'qgis']:
       ensure => installed;
   }
 
